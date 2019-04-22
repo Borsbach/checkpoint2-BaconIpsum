@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./checkpoint2.css" />
+    <link rel="stylesheet" href="../ACA_web101_Sascha_Borsbach/css-reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CheckPoint2</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 350px;
+        width: 100%;
+      }
+    </style>
+  
+  </head>
+<body>
+
+    <div class="body-container">
+      <div class="top-container">
+        <ul class="links">
+          <a class="home">Home</a>
+          <a class="about-us">About Us</a>
+          <a class="menu">Menu</a>
+          <a class="locations">Locations</a>
+        </ul>
+        <div class="title-text">
+          <h1>FARM FRESH INGREDIENTS</h1>
+          <button>CHECK OUT OUR MENU</button>
+        </div>
+      </div>
+
+      <div class="welcome">
+        <div class="restaurant-name">Welcome to Ajó Restaurant</div>
+      </div>
+
+      <div class="container-2">
+        <div class="family-owned">Ajó restaurant is a family owned and operated business 
+        </div>
+          <div class="specials-link">
+        <div class="buttons-2">
+          <button class="about-Us">About Us</button>
+          <button class="specials">Specials</button>
+        </div>
+      </div>
+      </div>
+
+      <div class="opening-hours">
+        <section>
+          <article class="left">
+           <img class="restaurant-pic" src="./Images/restaurant-ajo.jpg" alt="picture-of-restaurant">
+          </article>
+        <div class="hours">
+          <article id="text">
+           <h3>Bringing fresh farm ingredients to your table while emphasizing on quality and flavor.</h3>
+           <p>Lunch Monday-Friday 11-3</p>
+           <p>Brunch Saturday and Sunday 11-3</p>
+           <p>Dinner Sunday - Thursday 3-10</p>
+           <p>Dinner Friday-Saturday 3-11</p>
+           <h3>Trying to bring a downtown Austin feel up north where it is quickly growing.</h3>
+         </article>
+        </div>
+        </section>
+      </div>
+
+      <div class="sample-pics-background">
+        <div class="sample-pics">
+        <img class="picture" src="./Images/ajo1.jpg" alt="entre-pic">
+        <img class="picture" src="./Images/ajo2.jpg" alt="appetizer-pic">
+        <img class="picture" src="./Images/ajo3.jpg" alt="dessert-pic">
+        <img class="picture" src="./Images/ajo4.jpg" alt="soup-pic">
+      </div>
+      </div>
+
+      <div class="family-background">
+        <img class="family-text" src="./Images/home_burger_slogan.png" alt="Family-text">
+      </div>
+
+      <div id="map"></div>
+
+      <div class="footer-links">
+        <nav class="our-info">
+          <h3 class="headline">Our Information</h3>
+          <p class="left-column" id="address">121 E Main St <br>Round Rock, Texas</p>
+          <p class="left-column">(512) 992-2335</p>
+          <p class="left-column">Lunch Monday-Friday 11-3</p>
+          <p class="left-column">Brunch Saturday and Sunday 11-3</p>
+          <p class="left-column">Dinner Sunday - Thursday 3-10</p>
+          <p class="left-column">Dinner Friday-Saturday 3-11</p>
+        </nav>
+        <nav class="Reviews">
+          <h3 class="headline">Reviews</h3>
+          <p class="center-column">Reviews are coming Soon</p>
+        </nav>
+        <nav class="ajo-social">
+          <h3 class="headline">AJO Social</h3>
+          <div class="social-media">
+            <a  href="#" class="fa fa-facebook"></a>
+            <a  href="#" class="fa fa-google"></a>
+            <a  href="#" class="fa fa-twitter"></a>
+          </div>
+        </nav>
+      </div>
+        <div class="spoon">
+          <img class="spoon-pic" src="./Images/spoon pic.jpg" alt="picture-with-spoons">
+        </div>
+     
+      
+      <footer>
+        <ul>© 2015 AJO Restaurant. All Rights Reserved. Design Copied by <em> A Borsbach</em></ul>
+      </footer>
+
+      <script> 
+        function initMap() {
+          var location = {lat: 30.508, lng: -97.680};
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 16, 
+            center: location
+          });
+          var marker = new google.maps.Marker({
+            position: location,
+            map: map
+          });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEVS8B7_Z30b56FWOBFCNIDfslBVbyMqw&callback=initMap"></script>
+  </body>
+</html>

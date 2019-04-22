@@ -1,0 +1,282 @@
+.body-container {
+  height: 100%;
+}
+.top-container {
+  background-image: url(./Images/gf-steak-salad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.links {
+  display: flex;
+  padding-top: 50px;
+  margin-left: 1000px;
+  margin-right: 300px;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links:hover {
+  color: #e3c996;
+}
+
+.title-text {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+button {
+  margin: 20px;
+  color: #311c0f;
+  background: #e3c996;
+  padding: 8px 15px 8px 15px;
+  font-size: 2rem;
+}
+
+button:hover {
+  color: white;
+  background: #311c0f;
+}
+
+.welcome {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.restaurant-name {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  color: #311c0f;
+  font-size: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #e3c996;
+  width: 1050px;
+}
+
+.specials-link {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.family-owned {
+  background: #f4f4f4;
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-2 {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 2px solid lightgray;
+  width: 1050px;
+}
+
+.about-Us {
+  padding: 8px 20px 8px 20px;
+  background: white;
+  color: #311c0f;
+  font-size: 1rem;
+}
+
+.specials {
+  padding: 8px 20px 8px 20px;
+  background: #e3c996;
+  color: white;
+  font-size: 1rem;
+}
+
+.opening-hours {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-pic {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+section {
+  display: flex;
+  height: 340px;
+  padding-top: 2%;
+  background-color: #f4f4f4;
+  border-bottom: 4px solid #e3c996;
+  width: 1050px;
+}
+
+.left {
+  width: 420px;
+  align-items: left;
+}
+
+#text {
+  padding-top: 80px;
+}
+
+p {
+  color: gray;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+}
+
+h3 {
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sample-pics-background {
+  background-color: #f4f4f4;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sample-pics {
+  display: flex;
+}
+
+.picture {
+  height: 250px;
+  margin:8px;
+}
+.family-background {
+  padding-top: 120px;
+  padding-bottom: 70px;
+  background-image: url(http://ajorestaurant.com/wp-content/uploads/2015/12/chalboard.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 21.2969px;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.family-text {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-links {
+  background-color: #f4f4f4;
+  height: 300px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 12%;
+}
+
+#address {
+  line-height: 1.5;
+}
+
+.headline {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+.left-column {
+  text-align: left;
+  line-height: 2.8
+}
+
+.center-column {
+  text-align: left;
+}
+
+/* .right-column {
+  padding-top: 10%;
+  text-align: left;
+  font-size: 1rem;
+} */
+
+nav {
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  padding: 5%;
+}
+
+.spoon {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.spoon-pic {
+  height:366px;
+  width:1195px;
+}
+
+.fa {
+  padding: 13px;
+  font-size: 15px;
+  width: 43px;
+  height: 43px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.social-media {
+  margin-top: 2%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+footer {
+  height: 80px;
+  color: white;
+  background-color: #311c0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
