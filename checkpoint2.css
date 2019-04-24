@@ -23,7 +23,7 @@
 }
 
 .title-text {
-  margin-top: 350px;
+  padding-top:350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,4 +279,52 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .title-text {
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+  }
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .restaurant-name {
+    display: flex;
+    justify-content: column;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .links {
+    display: none;
+  }
+  .restaurant-pic {
+    display: none;
+  }
+  #text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sample-pics {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    height: 500px
+  }
+  .spoon-pic {
+    max-width: 100%;
+    height: 200px;
+  }
+  footer {
+    font-size: .7rem
+  }
+  .left {
+    display: none;
+  }
 }
